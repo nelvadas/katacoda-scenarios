@@ -9,20 +9,43 @@ While writing this scenarios, the latest released JDK version for Graal is 11 an
 Feel free to update the versions as you want.
 
 
-## Task
+## Instalation
 
 Select your JDK version: (default 11) <br> `export JDK_VERSION=11 `{{execute}} <br>
 
-Select your GraalVM Version: (default 20.0.1)<br>`export GRAALVM_VERSION=20.0.1`{{execute}}
+Select your GraalVM CE Version: (default 20.0.)<br>`export GRAAL_VERSION=20.0.0`{{execute}}
 
 
 Download the Graal Binary with the following command 
 
-` curl -o /tmp/graalvm-ee.tar.gz https://download.oracle.com/otn/utilities_drivers/oracle-labs/graalvm-ee-java${JDK_VERSION}-linux-amd64-${GRAALVM_VERSION}.tar.gz ` {{execute}}
+`curl -L -o /tmp/graalvm-ee.tar.gz "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${GRAAL_VERSION}/graalvm-ce-java${JDK_VERSION}-linux-aarch64-${GRAAL_VERSION}.tar.gz
+" `{{execute}}
 
 The GraalVM binary should now be available in your `tmp` folder 
 
 ` ls -rtl /tmp/` {{execute}}
 
-https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.0.0/graalvm-ce-java11-linux-aarch64-20.0.0.tar.gz
+Extract the Binaries in the opt folder
+`tar -C /opt/ -xvf  /tmp/graalvm-ee.tar.gz`{{execute}}
 
+Update your PATH with to include GRAAL Binaries
+
+`export PATH=/opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}/bin:$PATH` {{execute}}
+
+
+## Health Check 
+
+Check your `PATH`  is  updated accoundingly
+
+`echo $PATH`{{execute}}
+
+
+Verify the java version you are running on 
+`java -version `{{execute}}
+
+Verify the GraalVM instance you are running 
+
+` cd /opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}` {{execute}}
+
+Explore the content of the GRAAL repository 
+`tree `{{execute}}
