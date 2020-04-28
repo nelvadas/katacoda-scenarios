@@ -1,12 +1,12 @@
 GraalVM is available for Linux/Mac/Windows in two editions: 
 * a Community Edition 
-* An Enteprise Edition with a 24/7 Premium Oracle Support.
+* An [Enteprise Edition](https://www.oracle.com/downloads/graalvm-downloads.html) with a 24/7 Premium Oracle Support.
 
 GraalVM is shipped as a sepearate package for each supported JDK edition 
 
-In this section, you will install the Enterprise Edition of your choice by customizing the  `JDK_VERSION` and `GRAAL_VERSION` Version Variables.
-While writing this scenarios, the latest released JDK version for Graal is 11 and the latest GRAAL version is 20.0.1
-Feel free to update the versions as you want.
+Install the Community Edition of your choice by customizing the  `JDK_VERSION` and `GRAAL_VERSION` Variables.
+While writing this scenarios, the latest GRAAL CE release is `20.0.0`  with   `JDK11`.
+> Feel free to update the versions as you want.
 
 
 ## Instalation
@@ -26,7 +26,7 @@ The GraalVM binary should now be available in your `tmp` folder
 ` ls -rtl /tmp/` {{execute}}
 
 Extract the Binaries in the opt folder
-`tar -C /opt/ -xvf  /tmp/graalvm-ee.tar.gz`{{execute}}
+`tar -C /opt/ -xvf  /tmp/graalvm-ce.tar.gz`{{execute}}
 
 Update your PATH with to include GRAAL Binaries
 
