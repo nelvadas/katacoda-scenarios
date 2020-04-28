@@ -18,7 +18,7 @@ Select your GraalVM CE Version: (default 20.0.)<br>`export GRAAL_VERSION=20.0.0`
 
 Download the Graal Binary with the following command 
 
-`curl -L -o /tmp/graalvm-ee.tar.gz https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${GRAAL_VERSION}/graalvm-ce-java${JDK_VERSION}-linux-aarch64-${GRAAL_VERSION}.tar.gz`{{execute}}
+`curl -L -o /tmp/graalvm-ce.tar.gz https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${GRAAL_VERSION}/graalvm-ce-java${JDK_VERSION}-linux-amd64-${GRAAL_VERSION}.tar.gz`{{execute}}
 
 The GraalVM binary should now be available in your `tmp` folder 
 
