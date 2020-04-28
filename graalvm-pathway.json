@@ -1,0 +1,19 @@
+{
+    "title": "GraalVM",
+    "description": "Learn how to build/run programs faster anywhere with the universal and polyglot VM  ",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "graalvm-introduction",
+        "title": "Welcome to Graal",
+        "description": "Introduction to GraalVM"
+      },
+      
+      {
+        "title": "Native Image",
+        "description": "Build programs that start fast without Runtime JVM",
+        "course_id": "graalvm-nativeimage"
+      }
+    ]
+  }
+  
