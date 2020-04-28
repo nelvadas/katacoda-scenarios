@@ -23,29 +23,30 @@ Download the Graal Binary with the following command
 
 The GraalVM binary should now be available in your `tmp` folder 
 
-` ls -rtl /tmp/` {{execute}}
+`ls -rtl /tmp/`{{execute}}
 
 Extract the Binaries in the opt folder
 `tar -C /opt/ -xvf  /tmp/graalvm-ce.tar.gz`{{execute}}
 
 Update your PATH with to include GRAAL Binaries
 
-`export PATH=/opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}/bin:$PATH` {{execute}}
+`export PATH=/opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}/bin:$PATH`{{execute}}
+
+Your installation should be OK now.
 
 
 ## Health Check 
 
-Check your `PATH`  is  updated accoundingly
+Check your `PATH`  have been updated accoundingly
 
 `echo $PATH`{{execute}}
 
 
-Verify the java version you are running on 
+Verify the java version you are running. 
 `java -version `{{execute}}
 
-Verify the GraalVM instance you are running 
+Explore the content of the GRAALVM installation directory 
 
-` cd /opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}` {{execute}}
-
-Explore the content of the GRAAL repository 
-`tree `{{execute}}
+`cd /opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}`{{execute}}
+display files and subdirectories
+`ls -rtl `{{execute}}
