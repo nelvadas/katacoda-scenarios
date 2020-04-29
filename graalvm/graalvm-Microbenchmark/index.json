@@ -1,0 +1,32 @@
+{
+    "title": "Getting started with GraalVM",
+    "description": "Learn how to create your first Katacoda scenario",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Install GraalVM CE",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2 - Run a simple Java Program with Graal JIT Compiler",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3 - Run a simple Java Program with the Default Hotspot JIT Compiler",
+                "text": "step3.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "uilayout": "editor-terminal"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}
