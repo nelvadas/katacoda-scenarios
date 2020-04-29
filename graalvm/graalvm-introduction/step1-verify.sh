@@ -1,0 +1,1 @@
+[ -d /opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}/bin ] && echo "done"
