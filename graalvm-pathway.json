@@ -10,9 +10,9 @@
       },
       
       {
-        "title": "Microbenchmarks : Graal JIT compiler vs Hotspot JIT",
-        "description": "Evaluate a simple application performance with both Graal and Hotspot JIT",
-        "course_id": "graalvm-microbenchmark"
+        "title": "Graal Compiler",
+        "description": "Getting started with the new Graal compiler",
+        "course_id": "graalvm-compiler"
       },
       {
         "title": "Native Image",
