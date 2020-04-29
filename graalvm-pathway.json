@@ -10,13 +10,13 @@
       },
       
       {
-        "title": "Graal Compiler",
-        "description": "Getting started with the new Graal compiler",
+        "title": "Graal JIT Compiler",
+        "description": "Getting started with the new optimized Graal Compiler",
         "course_id": "graalvm-compiler"
       },
       {
         "title": "Native Image",
-        "description": "Build programs that start fast without Runtime JVM",
+        "description": "Build faster program with AOT features.",
         "course_id": "graalvm-nativeimage"
       }
     ]

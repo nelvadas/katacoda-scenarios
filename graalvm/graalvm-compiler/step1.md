@@ -1,9 +1,5 @@
-GraalVM is available for Linux/Mac/Windows in two editions: 
-* a Community Edition 
-* An [Enteprise Edition](https://www.oracle.com/downloads/graalvm-downloads.html) with a 24/7 Premium Oracle Support.
 
-GraalVM is shipped as a sepearate package for each supported JDK edition 
-
+GraalVM comes with a new powerfull compiler called Graal compiler 
 Install the Community Edition of your choice by customizing the  `JDK_VERSION` and `GRAAL_VERSION` Variables.
 While writing this scenarios, the latest GRAAL CE release is `20.0.0`  with   `JDK11`.
 > Feel free to update the versions as you want.

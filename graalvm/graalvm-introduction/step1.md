@@ -32,5 +32,3 @@ Update your PATH to  include GRAAL executables
 `export PATH=/opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}/bin:$PATH`{{execute}}
 
 Your installation should be OK now.
-
-
