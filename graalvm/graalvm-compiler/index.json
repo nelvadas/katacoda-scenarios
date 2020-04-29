@@ -28,11 +28,6 @@
         "assets": {
             "client": [
                 {
-                    "file": "intro-course-data.sh",
-                    "target": "/home/scrapbook/tutorial",
-                    "chmod": "+x"
-                },
-                {
                     "file": "app.js",
                     "target": "/home/scrapbook/tutorial",
                     "chmod": "+x"
