@@ -1,6 +1,6 @@
 {
-    "title": "Getting started with GraalVM",
-    "description": "Learn how to create your first Katacoda scenario",
+    "title": "Maximixing existing apps preformances with the Graal JIT Compiler",
+    "description": "Getting started with the new GraalVM JIT Compiler",
     "details": {
         "steps": [
             {
