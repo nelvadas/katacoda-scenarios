@@ -1,1 +1,1 @@
-[ -x java ] && echo "done"
+(( $(java --version | grep GraalVM | wc -l) >= 2)) && echo \"done\"

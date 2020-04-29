@@ -1,1 +1,1 @@
-[ -d "/opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}/language/python" ] && echo "done"
+(( $(gu list | wc -l) >5 )) && echo \"done\"
