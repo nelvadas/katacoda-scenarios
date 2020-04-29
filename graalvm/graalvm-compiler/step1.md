@@ -17,7 +17,7 @@ Clone the demo repository <br>
 
 Move to the `java-simple-stream-benchmark` maven project <br>
 
-`cd graalvm-demos/tree/master/java-simple-stream-benchmark`{{execute}}
+`cd graalvm-demos/java-simple-stream-benchmark`{{execute}}
 
 Build the project with maven <br>
 `mvn clean install `{{execute}}

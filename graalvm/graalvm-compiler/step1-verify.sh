@@ -1,0 +1,1 @@
+[ -x  /home/scrapbook/tutorial/graalvm-demos/java-simple-stream-benchmark/target/benchmarks.jar ] && echo \"done\"
