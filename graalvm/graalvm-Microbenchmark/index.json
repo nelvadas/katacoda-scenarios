@@ -17,7 +17,10 @@
             }
         ],
         "intro": {
-            "text": "intro.md"
+            "text": "intro.md",
+            "courseData": "intro-course-data.sh",
+             "credits": "This course was inpired by [GraalVM official Demos](https://github.com/graalvm/graalvm-demos)"
+
         },
         "finish": {
             "text": "finish.md"
