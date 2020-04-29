@@ -5,6 +5,7 @@
         "steps": [
             {
                 "title": "Step 1 - Verify Your environment",
+                "courseData": "intro-course-data.sh",
                 "text": "step1.md"
             },
             {
@@ -18,8 +19,6 @@
         ],
         "intro": {
             "text": "intro.md",
-            "courseData": "intro-course-data.sh",
-            "code": "intro-course-data.sh",
             "credits": "This course was inpired by [GraalVM official Demos](https://github.com/graalvm/graalvm-demos)"
         },
         "finish": {
@@ -35,7 +34,7 @@
             ]
         }
     },
-    "files": [ "app.js" ], 
+    "files": [ "/home/scrapbook/tutorial/app.js" ], 
     "environment": {
         "icon": "fa-java",
         "uilayout": "editor-terminal"
