@@ -1,10 +1,10 @@
 {
-    "title": "Maximixing existing apps preformances with the Graal JIT Compiler",
+    "title": "GraalVM JIT Compiler",
     "description": "Getting started with the new GraalVM JIT Compiler",
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Install GraalVM CE",
+                "title": "Step 1 - Verify Your environment",
                 "text": "step1.md"
             },
             {
