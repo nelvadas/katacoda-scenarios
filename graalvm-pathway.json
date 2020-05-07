@@ -18,7 +18,15 @@
         "title": "Native Image",
         "description": "Build faster program with AOT features.",
         "course_id": "graalvm-nativeimage"
+      },
+
+      {
+        //"title": "Command Line application ",
+        //"description": "Build faster program with AOT features.",
+        //"course_id": "graalvm-nativeimage"
       }
+      
+
     ]
   }
   
