@@ -9,11 +9,11 @@
                 "verify": "step1-verify.sh"
             },
             {
-                "title": "Step 2 - Run a simple Java Program with Graal JIT Compiler",
+                "title": "Step 2 - Run a simple Java Benchmark with Default Hotspot JIT Compiler",
                 "text": "step2.md"
             },
             {
-                "title": "Step 3 - Run a simple Java Program with the Default Hotspot JIT Compiler",
+                "title": "Step 3 - Run a simple Java Benchmark with the New GraalVM JIT Compiler",
                 "text": "step3.md"
             }
         ],
@@ -36,7 +36,7 @@
             ]
         }
     },
-    "files": [ "/home/scrapbook/tutorial/app.js" ], 
+    "files": [ "/home/scrapbook/tutorial/notes.txt" ], 
     "environment": {
         "uimessage1": " Installing Graal and Maven",
         "icon": "fa-java",

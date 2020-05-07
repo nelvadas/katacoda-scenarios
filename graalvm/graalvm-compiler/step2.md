@@ -1,17 +1,22 @@
-In this section you will verify that your installation is running fine 
+In this section you will verify execute 3 iterations of the 
+`testMethod` and capture the Average Response time with [JMH](http://openjdk.java.net/projects/code-tools/jmh/)
 
-# Health Check 
+# Operating with the default JVMCI Compiler 
 
-Check your `PATH`  have been updated accoundingly
-
-`echo $PATH`{{execute}}
-
+Run the following command to start the benchmark with Hotspot JVM 
 
 Verify the java version you are running. 
-`java -version `{{execute}}
+`java -XX:-UseJVMCICompiler -jar target/benchmarks.jar `{{execute}}
 
-Explore the content of the GRAALVM installation directory 
+The `-XX:-UseJVMCICompiler` tells the JVM to run the program  without the GRAAL Compiler.
 
-`cd /opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}`{{execute}} <br>
-display files and subdirectories<br>
-`ls -rtl `{{execute}}
+This way, GRAAL will not be used as the JVMCI compiler and the JVM will use its default one.
+
+
+The final console output should be similar to
+```
+Benchmark                             Mode  Cnt    Score      Error  Units
+JavaSimpleStreamBenchmark.testMethod  avgt    3  454.934 ? 1825.010  ns/op
+```
+
+

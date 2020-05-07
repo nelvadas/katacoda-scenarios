@@ -1,17 +1,19 @@
-Graal VM comes with a set of default core packages(), to install the others optionnal packages, use the graal-updater
 
-## Task
+# Running with GRAAL JVMCI Compiler 
 
-Install the python and native-image libraries 
-
-`echo $PATH`{{execute}}
-
+Run the following command to start the benchmark with GraalVM  
 
 Verify the java version you are running. 
-`java -version `{{execute}}
+`java  -jar target/benchmarks.jar `{{execute}}
 
-Explore the content of the GRAALVM installation directory 
+> Here we are not using the  `-XX:-UseJVMCICompiler` 
 
-`cd /opt/graalvm-ce-java${JDK_VERSION}-${GRAAL_VERSION}`{{execute}} <br>
-display files and subdirectories<br>
-`ls -rtl `{{execute}}
+This way, GRAAL will be used as the JVMCI compiler instead of the default one used in the previous step.
+
+The final console output should be similar to the following lines:
+```
+Benchmark                             Mode  Cnt    Score     Error  Units
+JavaSimpleStreamBenchmark.testMethod  avgt    3  314.249 ? 627.944  ns/op`
+```
+
+The programs is at least  faster when running with GRAAL Compiler.
