@@ -13,7 +13,7 @@
                 "text": "step2.md"
             },
             {
-                "title": "Step 3 - Run a simple Java Benchmark with the New GraalVM JIT Compiler",
+                "title": "Step 3 - Run a simple Java Benchmark with the New GraalVM  JIT Compiler",
                 "text": "step3.md"
             }
         ],
@@ -29,7 +29,7 @@
         "assets": {
             "client": [
                 {
-                    "file": "app.js",
+                    "file": "notes.js",
                     "target": "/home/scrapbook/tutorial",
                     "chmod": "+x"
                 }
