@@ -19,10 +19,10 @@ Move to the `java-simple-stream-benchmark` maven project <br>
 
 `cd graalvm-demos/java-simple-stream-benchmark`{{execute}}
 
-Open the benchmark java source `src/main/java/org/graalvm/demos/JavaSimpleStreamBenchmark.java`{{open}}
+Open the benchmark java source `/home/code/JavaSimpleStreamBenchmark.java`{{open}}
 In this file, we perform a set streams operations on integers to complete the following expression
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\large&space;S=\sum_{i=1}^{10}{[2*(i&plus;1)&plus;2]}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\dpi{120}&space;\large&space;S=\sum_{i=1}^{10}{[2*(i&plus;1)&plus;2]}" title="\large S=\sum_{i=1}^{10}{[2*(i+1)+2]}" /></a>
+![ Expression](./assets/javaExpression.png)
 
 
 Build the project with maven <br>
