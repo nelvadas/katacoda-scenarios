@@ -29,7 +29,7 @@
         "assets": {
             "client": [
                 {
-                    "file": "notes.js",
+                    "file": "notes.txt",
                     "target": "/home/scrapbook/tutorial",
                     "chmod": "+x"
                 }
