@@ -19,8 +19,8 @@ Move to the `java-simple-stream-benchmark` maven project <br>
 
 `cd graalvm-demos/java-simple-stream-benchmark`{{execute}}
 
-Open the benchmark java source `/home/code/JavaSimpleStreamBenchmark.java`{{open}}
-In this file, we perform a set streams operations on integers to complete the following expression
+Open the benchmark java source `/home/scrapbook/tutorial/graalvm-demos/java-simple-stream-benchmark/src/main/java/org/graalvm/demos/JavaSimpleStreamBenchmark.java`{{open}}
+In this file, we perform a set of streams operations on integers to compute the following expression
 
 ![ Expression](./assets/javaExpression.png)
 
