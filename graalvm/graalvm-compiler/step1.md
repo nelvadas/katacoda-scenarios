@@ -2,9 +2,10 @@
 GraalVM comes with a new powerfull compiler called Graal compiler .
 
 
-Please wait for GraalVM and MAven to be installed on your environment ..
+## Environment Setup
+> :warning: ** Please wait for GraalVM and Maven 3 to be installed on your environment ...**
 
-## Task 
+## Build the benckmark project 
 
 Verify Maven is up and running on your environment <br>
 ` mvn -version `{{execute}}

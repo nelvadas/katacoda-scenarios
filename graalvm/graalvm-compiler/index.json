@@ -1,19 +1,19 @@
 {   "pathwayTitle": "GraalVM 101",
-    "title": "GraalVM JIT Compiler",
-    "description": "Getting started with the new GraalVM JIT Compiler",
+    "title": "Faster rutimes with GraalVM JIT Compiler",
+    "description": "Getting started with the new GraalVM JIT Compiler ",
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Verify Your environment",
+                "title": "Step 1 - Prepare a Benchmarks",
                 "text": "step1.md",
                 "verify": "step1-verify.sh"
             },
             {
-                "title": "Step 2 - Run a simple Java Benchmark with Default Hotspot JIT Compiler",
+                "title": "Step 2 - Hotspot JIT Compiler ",
                 "text": "step2.md"
             },
             {
-                "title": "Step 3 - Run a simple Java Benchmark with the New GraalVM  JIT Compiler",
+                "title": "Step 3 - GraalVM  JIT Compiler",
                 "text": "step3.md"
             }
         ],

@@ -5,7 +5,6 @@ In this section you will verify execute 3 iterations of the
 
 Run the following command to start the benchmark with Hotspot JVM 
 
-Verify the java version you are running. 
 `java -XX:-UseJVMCICompiler -jar target/benchmarks.jar `{{execute}}
 
 The `-XX:-UseJVMCICompiler` tells the JVM to run the program  without the GRAAL Compiler.

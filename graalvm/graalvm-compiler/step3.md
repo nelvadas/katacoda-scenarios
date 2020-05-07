@@ -2,8 +2,7 @@
 # Running with GRAAL JVMCI Compiler 
 
 Run the following command to start the benchmark with GraalVM  
-
-Verify the java version you are running. 
+ 
 `java  -jar target/benchmarks.jar `{{execute}}
 
 > Here we are not using the  `-XX:-UseJVMCICompiler` 
