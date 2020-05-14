@@ -28,10 +28,10 @@ In this main class, we assume for example we are building a command line tool wh
 
 ## Build the native-helloworld jar with maven assembly plugin
 Build the project as a single jar with its dependency using the maven assembly plugin 
-` mvn clean package` {{execute}}
+` mvn clean package`{{execute}}
 
 Run the java program using java command 
-` java -jar target/native-helloworld-1.0-SNAPSHOT-jar-with-dependencies.jar  Foo=Bar  John=Doe  JVM=Graal` {{execute}}
+`java -jar target/native-helloworld-1.0-SNAPSHOT-jar-with-dependencies.jar  Foo=Bar  John=Doe  JVM=Graal`{{execute}}
 
 Your output should looks like 
 ```

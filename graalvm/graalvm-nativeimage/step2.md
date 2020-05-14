@@ -21,7 +21,8 @@ Build the native-image
 ` native-image -jar target/native-helloworld-1.0-SNAPSHOT-jar-with-dependencies.jar  helloworld`{{execute}}
 
 Your output should looks like 
-```Build on Server(pid: 12697, port: 43401)
+```
+Build on Server(pid: 12697, port: 43401)
 [helloworld:12697]    classlist:     924.16 ms,  0.28 GB
 [helloworld:12697]        (cap):     967.09 ms,  0.28 GB
 [helloworld:12697]        setup:   1,426.31 ms,  0.28 GB
@@ -46,6 +47,7 @@ A new `helloworld` binary file is produced in the current directory
 
 `./helloworld Foo=Bar  John=Doe  JVM=Graal`{{execute}}
 Your output should be similar like the one you had in the previous step 
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
