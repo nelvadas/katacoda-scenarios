@@ -6,20 +6,24 @@
       {
         "course_id": "graalvm-introduction",
         "title": "Welcome to Graal",
-        "description": "Introduction to GraalVM"
+        "description": "Getting started with GraalVM"
       },
       
       {
         "title": "Graal JIT Compiler",
-        "description": "Getting started with the new optimized Graal Compiler",
+        "description": "Experiment the new optimized Graal JIT Compiler",
         "course_id": "graalvm-compiler"
       },
       {
         "title": "Native Image",
-        "description": "Build faster program with AOT features.",
+        "description": "Use Graal AOT features to build faster standalone executable java programs.",
         "course_id": "graalvm-nativeimage"
       },
-
+      {
+        "title": "Profile Guided Optimisation",
+        "description": "[In progress] JVM Machine learning to Push the perforamces limits",
+        "course_id": "graalvm-nativeimage-pgo"
+      },
       {
         //"title": "Command Line application ",
         //"description": "Build faster program with AOT features.",
