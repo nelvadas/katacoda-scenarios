@@ -1,1 +1,1 @@
-[ -d  /home/scrapbook/tutorial/graalvm-demos/java-simple-stream-benchmark/target/classes/org/graalvm/demos/ ] && echo \"done\"
+[ -d  /home/scrapbook/tutorial/graalvm-examples/native-helloworld/target/classes/org/graalvm/demos/ ] && echo \"done\"
