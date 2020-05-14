@@ -2,17 +2,15 @@ In this section
 
 ## Build a native image
 
-### Native Image Extension
-Native image feature is shipped as a separate extenion for GraalVM
-Run the following command to install 
-`gu install native-image`{{execute}}
-
-
-### Required OS libs
+### Requireemts OS libs
 For Native image build to work, you need the `gcc`compiler and the  following libs to be available on your system `glibc-devel`, `zlib-devel`   . 
 Run the following command to install 
 `apt-get install -y gcc zlib1g  libglib2.0-dev `{{execute}}
 
+### Native Image Extension
+Native image feature (gu) is shipped as a separate extenion for GraalVM
+Run the following command to install 
+`gu install native-image`{{execute}}
 
 
 ### Build the native-helloworld native image

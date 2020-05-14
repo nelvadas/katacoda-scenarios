@@ -3,17 +3,16 @@ In this section
 ## Playing with native images
 
 
-### Get the GraalVM version an image is generated with
+### VM version
 
-Build the native-image  
+The following command can be used to retreive teh VM used to produce the native-image  
 ` $ strings helloworld | grep com.oracle.svm.core.VM`{{execute}}
 
 
-### Performance Tests
+### Timing operations
 native images are faster than the original java program 
 
-
-`time java -jar target/native-helloworld-1.0-SNAPSHOT-jar-with-dependencies.jar  Foo=Bar  John=Doe  JVM=Graal` {{execute}}
+`time java -jar target/native-helloworld-1.0-SNAPSHOT-jar-with-dependencies.jar  Foo=Bar  John=Doe  JVM=Graal`{{execute}}
 
 ```
 ...
@@ -22,7 +21,7 @@ user    0m0.235s
 sys     0m0.043s
 ```
 
-` time  ./helloworld Foo=Bar  John=Doe  JVM=Graal` {{execute}}
+` time  ./helloworld Foo=Bar  John=Doe  JVM=Graal`{{execute}}
 ```
 ...
 real    0m0.003s
@@ -36,7 +35,7 @@ the helloworld native image is 150X faster than the execution from java command.
 
 ### Verbose mode 
 
-While running the same image builder command with --verbose you can 
+While running the same image builder command with `--verbose` you can 
 see the following arguments and parameters used to build the native image.
 ```
 Build on Server(pid: 11617, port: 34403)
