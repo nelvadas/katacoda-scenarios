@@ -1,0 +1,8 @@
+{   "pathwayTitle": "GraalVM",
+    "title": "Profile Guided Optimization",
+    "description": "Use JVM machine learning to improve performances",
+    
+    "backend": {
+        "imageid": "docker"
+    }
+}
