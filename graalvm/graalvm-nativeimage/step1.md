@@ -1,6 +1,4 @@
-
-
-
+In this step, we build the sample project to be use as input for the native image.
 
 ## Environment Setup
 
@@ -12,12 +10,14 @@
 Clone the demo repository <br>
 `git clone https://github.com/nelvadas/graalvm-examples.git `{{execute}}
 
-## Explore the native-helloworld project
+## Explore the sample project
 
 Move to the `native-helloworld` project
 `cd graalvm-examples/native-helloworld `{{execute}}
 
 Open the sample java source `./graalvm-examples/native-helloworld/src/main/java/org/graalvm/demos/HelloWorld.java`{{open}}
+
+
 In this main class, we assume for example we are building a command line tool where user will provide a set of parameter
 
 `HelloWorld.sh  param1=value1 foo=bar`
@@ -25,6 +25,7 @@ In this main class, we assume for example we are building a command line tool wh
 * we retreive the argv arguments from the main method and keep it it in a Property object (`commandOptions`) using a Spring utility method `StringUtils.splitArrayElementsIntoProperties`
 * We serialize the `commandOptions` object in XML format to the standard output
   `commandOptions.storeToXML(System.out, ...)`
+
 
 ## Build the native-helloworld jar with maven assembly plugin
 Build the project as a single jar with its dependency using the maven assembly plugin 
