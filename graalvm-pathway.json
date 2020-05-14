@@ -21,16 +21,9 @@
       },
       {
         "title": "Profile Guided Optimisation",
-        "description": "(Work in progress) JVM Machine learning to Push the perforamces limits",
+        "description": "(Work in progress) JVM Machine learning to Push perforamces limits",
         "course_id": "graalvm-pgo"
-      },
-      {
-        //"title": "Command Line application ",
-        //"description": "Build faster program with AOT features.",
-        //"course_id": "graalvm-nativeimage"
       }
-      
-
     ]
   }
   
