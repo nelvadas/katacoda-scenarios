@@ -20,10 +20,15 @@
         "course_id": "graalvm-nativeimage"
       },
       {
+        "title": "Getting started with a multilanguage VM ",
+        "description": "(WIP)Write Everywhere, Run on GraalVM",
+        "course_id": "graalvm-polyglot"
+      },
+      {
         "title": "Profile Guided Optimisation",
-        "description": "(Work in progress) JVM Machine learning to Push perforamces limits",
+        "description": "(WIP)  Enterprise Feature only: JVM Machine learning to Push perforamces limits",
         "course_id": "graalvm-pgo"
       }
     ]
-  }
+  } 
   
